@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 33.67 s <<< FAILURE! - in TestSuite
+te1(Testcases.sampletest)  Time elapsed: 9.248 s  <<< FAILURE!
+java.lang.AssertionError: expected [Car Washh Equipment Supplier | Sonny’s The CarWash Factory] but found [Car Wash Equipment Supplier | Sonny’s The CarWash Factory]
+	at Testcases.sampletest.te1(sampletest.java:45)
+
