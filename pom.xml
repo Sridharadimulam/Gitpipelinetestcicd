@@ -80,7 +80,7 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>6.14.3</version>
-    <!--  to run the selenium script the scope tab should be changed from test to compile follow below link -->
+<!--  to run the selenium script the scope tab should be changed from test to compile follow below link -->
 <!-- https://stackoverflow.com/questions/20345451/maven-compilation-error-package-org-testng-annotations-does-not-exist -->
     <scope>compile</scope>
 </dependency>
@@ -103,7 +103,7 @@
     <version>1.60</version>
 </dependency>
   </dependencies>
-  
+  <!--  this is the maven compiler and surefire plug in to run the selenim script from the cmmand line -->
   <build>
   <plugins>
     <plugin>
