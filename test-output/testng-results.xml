@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31482" started-at="2021-04-10T18:12:51Z" finished-at="2021-04-10T18:13:23Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="31482" started-at="2021-04-10T18:12:51Z" finished-at="2021-04-10T18:13:23Z">
+      <class name="Testcases.sampletest">
+        <test-method status="PASS" signature="loadlog4j()[pri:0, instance:Testcases.sampletest@380fb434]" name="loadlog4j" is-config="true" duration-ms="185" started-at="2021-04-10T23:42:51Z" finished-at="2021-04-10T23:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadlog4j -->
+        <test-method status="PASS" signature="bmethos(java.lang.reflect.Method)[pri:0, instance:Testcases.sampletest@380fb434]" name="bmethos" is-config="true" duration-ms="1" started-at="2021-04-10T23:42:51Z" finished-at="2021-04-10T23:42:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcases.sampletest.te()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethos -->
+        <test-method status="PASS" signature="te()[pri:0, instance:Testcases.sampletest@380fb434]" name="te" duration-ms="12816" started-at="2021-04-10T23:42:51Z" finished-at="2021-04-10T23:43:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- te -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Testcases.sampletest@380fb434]" name="getResult" is-config="true" duration-ms="3" started-at="2021-04-10T23:43:04Z" finished-at="2021-04-10T23:43:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=te status=SUCCESS method=sampletest.te()[pri:0, instance:Testcases.sampletest@380fb434] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="bmethos(java.lang.reflect.Method)[pri:0, instance:Testcases.sampletest@380fb434]" name="bmethos" is-config="true" duration-ms="1" started-at="2021-04-10T23:43:04Z" finished-at="2021-04-10T23:43:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcases.sampletest.te1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethos -->
+        <test-method status="FAIL" signature="te1()[pri:1, instance:Testcases.sampletest@380fb434]" name="te1" duration-ms="11059" started-at="2021-04-10T23:43:04Z" finished-at="2021-04-10T23:43:15Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Car Washh Equipment Supplier | Sonny’s The CarWash Factory] but found [Car Wash Equipment Supplier | Sonny’s The CarWash Factory]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Car Washh Equipment Supplier | Sonny’s The CarWash Factory] but found [Car Wash Equipment Supplier | Sonny’s The CarWash Factory]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at Testcases.sampletest.te1(sampletest.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- te1 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Testcases.sampletest@380fb434]" name="getResult" is-config="true" duration-ms="2" started-at="2021-04-10T23:43:17Z" finished-at="2021-04-10T23:43:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=te1 status=FAILURE method=sampletest.te1()[pri:1, instance:Testcases.sampletest@380fb434] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="bmethos(java.lang.reflect.Method)[pri:0, instance:Testcases.sampletest@380fb434]" name="bmethos" is-config="true" duration-ms="1" started-at="2021-04-10T23:43:17Z" finished-at="2021-04-10T23:43:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcases.sampletest.te2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethos -->
+        <test-method status="PASS" signature="te2()[pri:2, instance:Testcases.sampletest@380fb434]" name="te2" duration-ms="5930" started-at="2021-04-10T23:43:17Z" finished-at="2021-04-10T23:43:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- te2 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Testcases.sampletest@380fb434]" name="getResult" is-config="true" duration-ms="2" started-at="2021-04-10T23:43:23Z" finished-at="2021-04-10T23:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=te2 status=SUCCESS method=sampletest.te2()[pri:2, instance:Testcases.sampletest@380fb434] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- Testcases.sampletest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
