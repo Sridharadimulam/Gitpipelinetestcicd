@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="26249" started-at="2021-04-10T20:01:53Z" finished-at="2021-04-10T20:02:19Z">
+  <suite name="Suite" duration-ms="45514" started-at="2021-04-11T07:04:12Z" finished-at="2021-04-11T07:04:57Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="26249" started-at="2021-04-10T20:01:53Z" finished-at="2021-04-10T20:02:19Z">
+    <test name="Test" duration-ms="45514" started-at="2021-04-11T07:04:12Z" finished-at="2021-04-11T07:04:57Z">
       <class name="Testcases.sampletest">
-        <test-method status="PASS" signature="loadlog4j()[pri:0, instance:Testcases.sampletest@4439f31e]" name="loadlog4j" is-config="true" duration-ms="156" started-at="2021-04-10T20:01:53Z" finished-at="2021-04-10T20:01:53Z">
+        <test-method status="PASS" signature="loadlog4j()[pri:0, instance:Testcases.sampletest@5dfcfece]" name="loadlog4j" is-config="true" duration-ms="217" started-at="2021-04-11T07:04:12Z" finished-at="2021-04-11T07:04:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadlog4j -->
-        <test-method status="PASS" signature="bmethos(java.lang.reflect.Method)[pri:0, instance:Testcases.sampletest@4439f31e]" name="bmethos" is-config="true" duration-ms="1" started-at="2021-04-10T20:01:53Z" finished-at="2021-04-10T20:01:53Z">
+        <test-method status="PASS" signature="bmethos(java.lang.reflect.Method)[pri:0, instance:Testcases.sampletest@5dfcfece]" name="bmethos" is-config="true" duration-ms="2" started-at="2021-04-11T07:04:12Z" finished-at="2021-04-11T07:04:12Z">
           <params>
             <param index="0">
               <value>
@@ -22,22 +22,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bmethos -->
-        <test-method status="PASS" signature="te()[pri:0, instance:Testcases.sampletest@4439f31e]" name="te" duration-ms="10296" started-at="2021-04-10T20:01:53Z" finished-at="2021-04-10T20:02:03Z">
+        <test-method status="PASS" signature="te()[pri:0, instance:Testcases.sampletest@5dfcfece]" name="te" duration-ms="17657" started-at="2021-04-11T07:04:12Z" finished-at="2021-04-11T07:04:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- te -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Testcases.sampletest@4439f31e]" name="getResult" is-config="true" duration-ms="3" started-at="2021-04-10T20:02:03Z" finished-at="2021-04-10T20:02:03Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Testcases.sampletest@5dfcfece]" name="getResult" is-config="true" duration-ms="3" started-at="2021-04-11T07:04:30Z" finished-at="2021-04-11T07:04:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=te status=SUCCESS method=sampletest.te()[pri:0, instance:Testcases.sampletest@4439f31e] output={null}]]]>
+                <![CDATA[[TestResult name=te status=SUCCESS method=sampletest.te()[pri:0, instance:Testcases.sampletest@5dfcfece] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="bmethos(java.lang.reflect.Method)[pri:0, instance:Testcases.sampletest@4439f31e]" name="bmethos" is-config="true" duration-ms="1" started-at="2021-04-10T20:02:03Z" finished-at="2021-04-10T20:02:03Z">
+        <test-method status="PASS" signature="bmethos(java.lang.reflect.Method)[pri:0, instance:Testcases.sampletest@5dfcfece]" name="bmethos" is-config="true" duration-ms="1" started-at="2021-04-11T07:04:30Z" finished-at="2021-04-11T07:04:30Z">
           <params>
             <param index="0">
               <value>
@@ -48,7 +48,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bmethos -->
-        <test-method status="FAIL" signature="te1()[pri:1, instance:Testcases.sampletest@4439f31e]" name="te1" duration-ms="9242" started-at="2021-04-10T20:02:03Z" finished-at="2021-04-10T20:02:12Z">
+        <test-method status="FAIL" signature="te1()[pri:1, instance:Testcases.sampletest@5dfcfece]" name="te1" duration-ms="11842" started-at="2021-04-11T07:04:30Z" finished-at="2021-04-11T07:04:42Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Car Washh Equipment Supplier | Sonny’s The CarWash Factory] but found [Car Wash Equipment Supplier | Sonny’s The CarWash Factory]]]>
@@ -88,18 +88,18 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- te1 -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Testcases.sampletest@4439f31e]" name="getResult" is-config="true" duration-ms="4" started-at="2021-04-10T20:02:13Z" finished-at="2021-04-10T20:02:13Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Testcases.sampletest@5dfcfece]" name="getResult" is-config="true" duration-ms="4" started-at="2021-04-11T07:04:44Z" finished-at="2021-04-11T07:04:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=te1 status=FAILURE method=sampletest.te1()[pri:1, instance:Testcases.sampletest@4439f31e] output={null}]]]>
+                <![CDATA[[TestResult name=te1 status=FAILURE method=sampletest.te1()[pri:1, instance:Testcases.sampletest@5dfcfece] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="bmethos(java.lang.reflect.Method)[pri:0, instance:Testcases.sampletest@4439f31e]" name="bmethos" is-config="true" duration-ms="1" started-at="2021-04-10T20:02:13Z" finished-at="2021-04-10T20:02:13Z">
+        <test-method status="PASS" signature="bmethos(java.lang.reflect.Method)[pri:0, instance:Testcases.sampletest@5dfcfece]" name="bmethos" is-config="true" duration-ms="1" started-at="2021-04-11T07:04:44Z" finished-at="2021-04-11T07:04:44Z">
           <params>
             <param index="0">
               <value>
@@ -110,15 +110,15 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bmethos -->
-        <test-method status="PASS" signature="te2()[pri:2, instance:Testcases.sampletest@4439f31e]" name="te2" duration-ms="5381" started-at="2021-04-10T20:02:13Z" finished-at="2021-04-10T20:02:19Z">
+        <test-method status="PASS" signature="te2()[pri:2, instance:Testcases.sampletest@5dfcfece]" name="te2" duration-ms="13246" started-at="2021-04-11T07:04:44Z" finished-at="2021-04-11T07:04:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- te2 -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Testcases.sampletest@4439f31e]" name="getResult" is-config="true" duration-ms="2" started-at="2021-04-10T20:02:19Z" finished-at="2021-04-10T20:02:19Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Testcases.sampletest@5dfcfece]" name="getResult" is-config="true" duration-ms="1" started-at="2021-04-11T07:04:57Z" finished-at="2021-04-11T07:04:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=te2 status=SUCCESS method=sampletest.te2()[pri:2, instance:Testcases.sampletest@4439f31e] output={null}]]]>
+                <![CDATA[[TestResult name=te2 status=SUCCESS method=sampletest.te2()[pri:2, instance:Testcases.sampletest@5dfcfece] output={null}]]]>
               </value>
             </param>
           </params>

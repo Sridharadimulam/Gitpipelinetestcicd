@@ -1,3 +1,5 @@
-com\qa\Utils\Getscreensottest.class
-com\qa\testbase\Baseclass.class
+com\qa\Pages\Loginpage.class
 com\qa\Utils\Listenertest.class
+com\qa\Utils\Getscreensottest.class
+com\qa\Pages\Homepage.class
+com\qa\testbase\Baseclass.class
